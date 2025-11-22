@@ -1,13 +1,13 @@
 # Site settings
-title: 2019 SoCal Robotics Symposium
+title: IEEE NVMSA 2026
 
-url: http://scr2019.caltech.edu/
+url: https://nvmsa2026.github.io/
 baseurl: ''
 
-conference_title: "Southern California Robotics Symposium"
-conference_title_short: "SCR"
-year: "2019"
-infoline_text: "Thanks for attending SCR 2019, see you again next year!"
+conference_title: "The 15th Non-Volatile Memory Systems and Applications Symposium"
+conference_title_short: "NVMSA"
+year: "2026"
+infoline_text: "Welcome to NVMSA 2026!"
 
 # Color settings
 color:
