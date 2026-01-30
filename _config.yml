@@ -7,7 +7,7 @@ baseurl: ''
 conference_title: "The 15th Non-Volatile Memory Systems and Applications Symposium"
 conference_title_short: "NVMSA"
 year: "2026"
-infoline_text: "Welcome to NVMSA 2026!"
+infoline_text: "Welcome to IEEE NVMSA 2026!"
 
 # Color settings
 color:
@@ -26,10 +26,16 @@ upload-form: http://paperupload.com
 
 collections:
   - invited_speakers
-  - organizers
+  - organizers_general
+  - organizers_program
+  - organizers_local
+  - organizers_finance
+  - organizers_registration
+  - organizers_publicity
+  - organizers_publication
+  - organizers_web
   - sessions
   - papers
-  - advisors
 
 # Build settings
 markdown: kramdown
