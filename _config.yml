@@ -27,7 +27,7 @@ route-link: Route to Hotel.pdf
 #map-embed: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3302.323048471302!2d-118.12734598467776!3d34.13807638058268!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c4a7f5e60b13%3A0xc12af3fcb43bc03d!2sRamo+Auditorium!5e0!3m2!1sen!2sus!4v1546639172046
 map-embed: https://maps.google.com/maps?hl=en&amp;q=黄海饭店&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed
 organizer-email : organizer@email.com
-registration-page : http://registration.com
+registration-page : https://nvmsa2026.scimeeting.cn/en/web/index/37834_3294500
 upload-form: https://easychair.org/conferences/?conf=nvmsa2026
 
 collections:
