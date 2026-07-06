@@ -1,0 +1,7 @@
+---
+author: Tianren Zhou, Ruoxuan Cao, Qian Wei, Qiang Li, Xianwei Meng and Xiaojun Cai.
+title: "TraceDiff: Autoregressive Latent Diffusion for High-Fidelity Storage I/O Trace Synthesis"
+oral: yes
+number: 18
+---
+**Abstract**: I/O traces are essential for storage system evaluation and workload analysis, but real traces are often scarce due to privacy concerns, collection costs, and workload diversity. While LSTM-based generators model short-term sequential dependencies, they suffer from autoregressive error accumulation and struggle to jointly capture heterogeneous I/O attributes like inter-arrival time, starting address, operation type, and request size. This paper presents TraceDiff, a diffusion-based model that uses historical I/O events as conditions to generate future events through conditional denoising. TraceDiff employs a causal Transformer history encoder and a DiT-style denoising network to model temporal-spatial dependencies and multi-field correlations. Experiments on three real-world datasets show that TraceDiff consistently outperforms the LSTM-based PALSYN baseline in event-level accuracy and distributional similarity. Specifically, TraceDiff reduces errors in inter-arrival time and starting address, improves accuracy for operation types and request sizes, and better preserves distributions of inter-arrival time, request size, LBA-jump, and temporal autocorrelation. These results demonstrate that diffusion-based generation effectively produces high-fidelity I/O traces with complex temporal-spatial patterns.

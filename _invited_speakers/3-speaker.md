@@ -1,23 +1,13 @@
 ---
-name:  John Doe
-title: Title 
-affiliation: Affiliation
-image: https://via.placeholder.com/300
-link: http://website.com
-session: talks2
+name: Samarjit Chakraborty
+title: Distinguished Professor
+affiliation: UNC Chapel Hill
+image: https://rtcsa2026.github.io/img/site/Samarjit-Chakraborty.jpg
+link: https://www.cs.unc.edu/~samarjit/
+session: NVMSA/RTCSA Joint Keynote 3
 priority: 3
-talk_title: Talk Title
+talk_title: "A Tutorial Introduction to Deep Brain Stimulation"
 ---
-**Abstract**: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+**Abstract**: Deep Brain Stimulation (DBS) has been shown to be an effective treatment for Parkinson’s Disease and is starting to be used to treat essential tremor, epilepsy, obsessive compulsive disorder and certain types of depression. DBS provides electrical stimuli to specific regions of the patient’s brain through surgically implanted electrodes that are wired to a pulse generator, also implanted inside the patient. While almost 10,000 DBS surgeries are already performed in the U.S. alone every year, research is actively being done to improve this technology. These include determining better electrode configurations and optimizing stimulation parameters by adjusting the pulse’s shape, amplitude, and frequency. Such parameters can either remain static and be manually adjusted by a neurologist, or use closed-loop feedback control that monitor neural data-based biomarkers to adjust the stimulation. Such adaptive approaches can not only lead to better patient outcomes as the condition of the patient evolves, but also reduce undesirable side effects and prolong the device’s battery life. This talk will provide a tutorial introduction to DBS, covering its history, clinical foundations, and emerging adaptive strategies. We will see that DBS is a compelling cyber-physical systems problem, involving questions in optimal control, reinforcement learning, formal verification, and resource & power-aware embedded systems design.
 
-**Bio**﻿: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+**Bio**: Samarjit Chakraborty is Kenan Distinguished Professor of Computer Science and an adjunct professor of Mathematics at the University of North Carolina at Chapel Hill. Before joining UNC, he was Professor of Electrical Engineering at the Technical University of Munich, where he held the Chair of Real-Time Computer Systems, and earlier served on the faculty of the National University of Singapore. He received his PhD from ETH Zurich. His research spans embedded and cyber-physical systems, sustainable computing, and sensor-networked information processing. His work has received several best paper awards and other recognitions. He is an IEEE Fellow, an ACM Distinguished Speaker, a Fellow of the TUM Institute of Advanced Study, and is currently the elected chair of ACM SIGBED, the ACM’s Special Interest Group on Embedded Systems.

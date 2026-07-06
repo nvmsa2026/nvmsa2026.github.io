@@ -1,0 +1,7 @@
+---
+author: Yoonbae Lee, Donghyun Oh, Gwanjong Park and Euiseong Seo.
+title: "When Misprediction Is Cheap: Rethinking Host-Side Power Management for NVMe SSDs"
+outstanding: yes
+number: 6
+---
+**Abstract**: NVMe SSDs operate in a low-misprediction-cost regime: transitions are millisecond-scale, transition energy is modest, and the gap between active-idle and deep-sleep power remains large. Fixed idle timeouts are therefore the wrong abstraction for host-side dynamic power management (DPM), yet current operating systems still largely rely on them. We present a host-side DPM framework centered on a device-coupled control abstraction. From NVMe power-state descriptors and measured power parameters, we derive an energy-delay model with analytical break-even and crossover thresholds. These compress the timeout/state-selection space into a small set of threshold-anchored operating modes whose meaning carries across SSDs. A lightweight runtime realizes this abstraction online and enables a controlled comparison of reactive and reinforcement-learning (RL) controllers under the same action space. On an instrumented testbed, the framework reduces average SSD-rail power by up to 34.9% and resume-latency rate by up to 61.5% relative to a fixed-timeout baseline. Most of the gain comes from structuring the control space itself; RL mainly helps when hidden firmware-managed state makes one-step evaluation unreliable.

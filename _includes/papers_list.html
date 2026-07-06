@@ -1,28 +1,27 @@
 <!-- Papers section -->
       <div class="section scrollspy section-white-section" id="papers">
         <div class="container">
-          <h4 class="center-align section-white-header">Papers</h4>
+          <h4 class="center-align section-white-header">Accepted Papers</h4>
 
           <div class="row">
             <div class="col s12 m10 offset-m1 l10 offset-l1 section-white-body">
-              <p class="left">
+              <!-- <p class="left">
                 We received many great submissions this year and accepted more contributions than we could fit in the Spotlight Session. Make sure to check out all contributions in the poster session! 
-              </p>
+              </p> -->
             </div>
           </div>
 
-          <h5 class="center-align">Presented in the Spotlight and Poster Sessions</h5>
+          <h5 class="center-align" style="color: red;"><b>Outstanding Paper Session</b></h5>
 
           <div class="row">
             <div class="col s12 m10 offset-m1 l10 offset-l1 section-white-body">
               <table class="papers striped">
                 <tbody>
-                    {% assign papers = site.papers | sort: 'time' %}
+                    {% assign papers = site.papers | sort: 'number' %}
                     {% for paper in papers %}
-                      {% if paper.spotlight == true %}
+                      {% if paper.outstanding == true %}
                       <tr>
-                        <th>{{paper.time}}</th>
-                        <td>{{paper.number}}. <b>{{paper.author}}</b> <a href="#" data-target={{paper.id}} class="modal-trigger">{{paper.title}}</a></td>
+                        <td>#{{paper.number}}. <b>{{paper.author}}</b> <a href="#" data-target={{paper.id}} class="modal-trigger paper-title">{{paper.title}}</a></td>
                       </tr>
                       {%endif%}
                     {% endfor %}
@@ -31,7 +30,7 @@
             </div>
           </div>
 
-          <h5 class="center-align">Presented in the Poster Session</h5>
+          <h5 class="center-align"><b>Paper Session</b></h5>
 
           <div class="row">
             <div class="col s12 m10 offset-m1 l10 offset-l1 section-white-body">
@@ -39,9 +38,9 @@
                 <tbody>
                     {% assign papers = site.papers | sort: 'number' %}
                     {% for paper in papers %}
-                      {% if paper.spotlight == false %}
+                      {% if paper.oral == true %}
                       <tr>
-                        <td>{{paper.number}}. <b>{{paper.author}}</b> <a href="#" data-target={{paper.id}} class="modal-trigger">{{paper.title}}</a></td>
+                        <td>#{{paper.number}}. <b>{{paper.author}}</b> <a href="#" data-target={{paper.id}} class="modal-trigger paper-title">{{paper.title}}</a></td>
                       </tr>
                       {%endif%}
                     {% endfor %}
@@ -49,5 +48,25 @@
               </table>
             </div>
           </div>
+
+          <h5 class="center-align"><b>Poster Session</b></h5>
+
+          <div class="row">
+            <div class="col s12 m10 offset-m1 l10 offset-l1 section-white-body">
+              <table class="posters striped">
+                <tbody>
+                    {% assign papers = site.papers | sort: 'number' %}
+                    {% for paper in papers %}
+                      {% if paper.poster == true %}
+                      <tr>
+                        <td>#{{paper.number}}. <b>{{paper.author}}</b> <a href="#" data-target={{paper.id}} class="modal-trigger paper-title">{{paper.title}}</a></td>
+                      </tr>
+                      {%endif%}
+                    {% endfor %}
+                </tbody>
+              </table>
+            </div>
+          </div>
+
         </div>
       </div>

@@ -5,25 +5,35 @@
 
           <div class="row">
             <div class="col s12 m10 offset-m1 l10 offset-l1 section-gray-body">
-              <table class="schedule">
-                  {% for session in site.sessions %}
-                    {% assign session_speakers = site.invited_speakers | where:"session",{{session.name}} | sort: "priority" %}
-                    {% assign speakers_size = session_speakers | size %}                  
-                  <tr>
-                    <th scope="row"><time>{{session.time}}</time></th>
-                    <td>
-                    <h5>{{session.title}}</h5>
-	                  {% if speakers_size > 0 %}
-                        {% for speaker in session_speakers %}
-                          <b><a href="#" data-target={{speaker.id}} class="modal-trigger">{{speaker.name}}</a></b>{% if {{speaker.talk_title}} %}: <i>{{speaker.talk_title}}</i> {% endif %}<br/>
-                        {% endfor %}
-	                  {% else %}    
-                    {% endif %}
-                    </td>
-                  </tr>
-                  {% endfor %}
-                </tbody>
-              </table>
+              {% assign schedule_days = site.sessions | group_by: "day" | sort: "name" %}
+              {% for day in schedule_days %}
+                {% assign day_sessions = day.items | sort: "order" %}
+                <h5 class="center-align schedule-day-title">{{ day_sessions.first.day_title }}</h5>
+                <table class="schedule">
+                  <tbody>
+                    {% for session in day_sessions %}
+                      {% assign session_speakers = site.invited_speakers | where: "session", session.name | sort: "priority" %}
+                      {% assign speakers_size = session_speakers | size %}
+                      <tr>
+                        <th scope="row"><time>{{ session.time }}</time></th>
+                        <td>
+                          <h5>{{ session.title }}</h5>
+                          {% if speakers_size > 0 %}
+                            {% for speaker in session_speakers %}
+                              <b><a href="#" data-target={{ speaker.id }} class="modal-trigger">{{ speaker.name }}</a></b>{% if speaker.talk_title %}: <i>{{ speaker.talk_title }}</i>{% endif %}<br/>
+                            {% endfor %}
+                          {% endif %}
+                          {% if session.content != "" %}
+                            <div class="session-details">
+                              {{ session.content | markdownify }}
+                            </div>
+                          {% endif %}
+                        </td>
+                      </tr>
+                    {% endfor %}
+                  </tbody>
+                </table>
+              {% endfor %}
             </div>
           </div>
         </div>

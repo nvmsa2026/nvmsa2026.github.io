@@ -166,6 +166,35 @@
   padding-right: 45px;
 }
 
+.schedule-day-title {
+  margin-top: 30px;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.session-details {
+  margin-top: 8px;
+  font-size: 15px;
+  line-height: 1.45;
+}
+
+.session-details ul {
+  margin-top: 8px;
+}
+
+.session-details li {
+  margin-bottom: 10px;
+}
+
+.to-be-assigned {
+  color: blue;
+}
+
+.outstanding-paper {
+  color: red;
+  font-weight: bold;
+}
+
 .papers {
 
 }
@@ -186,9 +215,15 @@
   width: 80%;
 }
 
+.paper-title {
+  display: block;
+  margin-top: 4px;
+  white-space: normal;
+  overflow-wrap: anywhere;
+}
+
 .posters tbody td {
   width: 80%;
   padding-right: 15px;
   padding-left: 15px;
 }
-

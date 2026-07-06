@@ -1,15 +1,7 @@
 ---
-author: Author List
-title: "Paper title"
-affiliation: Affiliation
-spotlight: no
+author: Kaiwen Deng, Sifan Sun, Hanjie Liu, Haiyan Qin and Wang Kang.
+title: "Hardware-Aware Neural Network Deployment on Multi-Core In-Memory Computing Systems: A Compiler Perspective"
+oral: yes
 number: 1
 ---
-**Abstract**: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-[PDF](http://pdflink.com)
+**Abstract**: Conventional compute-in-memory (CIM) deployment flows usually assume a fixed crossbar geometry, although DNN layers often have different channel counts and matrix shapes. The resulting shape mismatch leaves part of the array capacity unused and can increase the number of split-and-transfer operations during inference. This paper presents FlexiCIM, a compiler framework for neural network deployment on multi-core CIM systems. FlexiCIM groups physical cores into virtual computing units (VCUs), maps reshaped layer weights under CIM capacity constraints, and schedules dependent tasks while accounting for communication overhead. The framework also uses an evolutionary search procedure to select VCU partitions for latency-first or throughput-first objectives. Experiments on five CNN models show that FlexiCIM achieves an average utilization of 75.5% under the default setting. In the latency-first setting, FlexiCIM reduces latency by up to 54.8% and obtains the lowest normalized energy among the evaluated designs (1.00 vs. 2.02/1.37/1.60 for Fixed-L/M/S). In the throughput-first setting, FlexiCIM provides the highest throughput on all five models, with 1.07×-1.38× speedup over the best fixed-size baseline. These results indicate that compiler-managed VCU partitioning and capacity-aware mapping improve deployment efficiency on multi-core CIM architectures.

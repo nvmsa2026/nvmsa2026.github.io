@@ -1,7 +1,7 @@
 <!-- Speakers section -->
       <div class="section scrollspy section-white-section" id="speakers">
         <div class="container">
-          <h4 class="center-align section-white-header">Speakers</h4>
+          <h4 class="center-align section-white-header">Keynote Speakers</h4>
 
           <div class="row">
             <div class="col s12 m12 l12 section-white-body">
@@ -11,7 +11,7 @@
           </div>
 
           <div class="row">
-            {% assign invited_speakers_sorted = site.invited_speakers | sort:"order_number" %}            
+            {% assign invited_speakers_sorted = site.invited_speakers | sort:"priority" %}            
             {% for invited_speaker in invited_speakers_sorted %}
             <a href="#" data-target={{invited_speaker.id}} class="modal-trigger">
               <div class="col s12 m6 l3">

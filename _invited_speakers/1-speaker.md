@@ -1,23 +1,15 @@
 ---
-name:  John Doe
-title: Title 
-affiliation: Affiliation
-image: https://via.placeholder.com/300
-link: http://website.com
-session: talks1
+name: Tei-Wei Kuo
+title: Distinguished Professor, ACM Fellow & IEEE Fellow
+affiliation: National Taiwan University
+image: https://rtcsa2026.github.io/img/site/Tei-Wei-Kuo.jpg
+link: https://www.csie.ntu.edu.tw/~ktw/
+session: NVMSA/RTCSA Joint Keynote 1
 priority: 1
-talk_title: Talk Title
+talk_title: "Empowering AI to Drive the Next Era of Intelligent Industry"
 ---
-**Abstract**: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+**Abstract**: As the world undergoes a paradigm shift from the digital era to the age of intelligent systems, Artificial Intelligence is evolving from tools in natural language processing into a fundamental driver of innovation. Empowering AI at scale requires a robust foundation spanning energy infrastructure, advanced computing, edge intelligence, and domain expertise — from the power grid that fuels AI systems to the chips that enable intelligent decision-making. This keynote explores how these advances are transforming sustainable energy systems, intelligent automation, and Edge AI, highlighting the technologies and opportunities shaping the next era of intelligent industry.
 
-**Bio**﻿: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+**Bio**: Dr. Kuo received his B.S.E. and Ph.D. degrees in Computer Science from National Taiwan University and University of Texas at Austin in 1986 and 1994, respectively. He is now Chief Technology Officer of Delta Electronics, where Delta Electronics is a global leader in power and thermal solutions with annual revenue over USD 17 billions in 2025, ranged from power electronics to automation and ICT infrastructure. Before he joined Delta Electronics, he was a Distinguished Professor of Department of Computer Science and Information Engineering of National Taiwan University for more than 25 years, where he was an Interim President of National Taiwan University (2017.10-2019.01). Prof. Kuo was Lee Shau Kee Chair Professor of Information Engineering, Advisor to President (Information Technology), and Dean of College of Engineering, City University of Hong Kong (2019.08-2022.07). His research interest includes flash-memory storage systems, non-volatile memory systems, and embedded systems.
+
+Dr. Kuo is Fellow of ACM, IEEE, and US National Academy of Inventors and is Chair of ACM SIGAPP (since 2023). Prof. Kuo received numerous awards and recognition, including Academic Award of Taiwan Ministry of Education, Humboldt Research Award (2021) from Alexander von Humboldt Foundation (Germany), Distinguished Research Award of Taiwan National Science and Technology Council, Outstanding Technical Achievement and Leadership Award (2017) from IEEE Technical Committee on Real-Time Systems, and Distinguished Leadership Award (2017) from IEEE Technical Committee on Cyber-Physical Systems. Prof. Kuo is the founding Editor-in-Chief of ACM Transactions on Cyber-Physical Systems (2015-2021) and a program committee member of many top conferences. He was General Chair of ESWEEK (2025). Prof. Kuo has over 350 technical papers published in international journals and conferences and received many best paper awards, including Best Paper Award from ACM/IEEE CODES 2019, 2022, 2024.

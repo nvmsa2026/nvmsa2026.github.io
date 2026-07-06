@@ -1,17 +1,7 @@
 ---
-author: Author List
-title: "Paper title"
-affiliation: Affiliation
-spotlight: no
-number: 3
-time: 1:30PM
-spotlight: yes
+author: Zhen-Yang Guo, Shang-Ze Wang, Chieh-Jen Wang, Ming-Chang Yang and Shuo-Han Chen.
+title: "Future-Proof Space Management in Relational Databases: Designs for ZNS Drives"
+oral: yes
+number: 4
 ---
-**Abstract**: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-[PDF](http://pdflink.com)
+**Abstract**: As the volume of data in modern enterprise systems continues to grow exponentially, the demand for high-capacity, cost-effective storage solutions has never been more critical. To meet these demands, the industry is shifting away from traditional block-based paradigms toward zoned storage, an architecture that partitions storage space into zones with strict sequential write requirements, effectively reducing write amplification, improving throughput, and extending device longevity. Zoned Namespace (ZNS) solid-state drives (SSDs) are a prime example of this architecture. However, relational databases, essential to many mission-critical systems, face challenges under zoned storage. Their reliance on frequent random writes for index updates, transaction logging, and record modifications conflicts with the sequential-write constraints of the zoned storage architecture. In response to these inefficiencies, this paper proposes a novel management strategy: Outer-Storage Efficient Space Management (OSESM) for ZNS SSDs. This method decouples data with high random access demands from data suited to sequential writes, leveraging the inherent benefits of zoned storage to improve write efficiency. Through performance evaluations on PostgreSQL with ZNS SSDs, this paper demonstrates that OSESM successfully preserves the high storage density advantages of zoned storage while retaining relational database performance.
