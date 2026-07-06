@@ -2,7 +2,7 @@
 name: Gala Yadgar
 title: Associate Professor
 affiliation: Israel Institute of Technology
-image: https://gala.cswp.cs.technion.ac.il/wp-content/uploads/sites/52/2025/07/Gala231.jpg
+image: img/Gala231.jpg
 link: https://gala.cswp.cs.technion.ac.il/
 session: NVMSA/RTCSA Joint Keynote 2
 priority: 2
