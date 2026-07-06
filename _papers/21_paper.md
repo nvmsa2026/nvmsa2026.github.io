@@ -1,6 +1,6 @@
 ---
-author: Junhyeok Jeong and Jaeho Kim
-title: "SAF: Semantic-Aware Flushing for Latency and Jitter Suppression in Continuous VLA Inference on Edge Devices	"
+author: Junhyeok Jeong and Jaeho Kim.
+title: "SAF: Semantic-Aware Flushing for Latency and Jitter Suppression in Continuous VLA Inference on Edge Devices"
 poster: yes
 number: 39
 ---
