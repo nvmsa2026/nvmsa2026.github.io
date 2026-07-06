@@ -10,11 +10,11 @@
             </div>
           </div>
 
-          <div class="row">
+          <div class="row speaker-grid">
             {% assign invited_speakers_sorted = site.invited_speakers | sort:"priority" %}            
             {% for invited_speaker in invited_speakers_sorted %}
-            <a href="#" data-target={{invited_speaker.id}} class="modal-trigger">
               <div class="col s12 m6 l3">
+                <a href="#" data-target={{invited_speaker.id}} class="modal-trigger">
                 <div class="card hoverable">
                   <div class="card-image">
                     <img class="activator" src="{{invited_speaker.image}}">
@@ -24,8 +24,8 @@
                     <span class="card-title activator" id="secondary-title-text">{{invited_speaker.affiliation}}</span>
                   </div>
                 </div>
+                </a>
               </div>
-            </a>
             {% endfor %}
           </div>
         </div>
