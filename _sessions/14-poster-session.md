@@ -7,3 +7,9 @@ name: poster-session
 title: "NVMSA Poster Session"
 ---
 **Session Chair:** <span class="to-be-assigned">To be assigned</span>
+
+{% assign poster_papers = site.papers | where: "poster", true | sort: "id" %}
+{% for paper in poster_papers %}
+- **[{{ paper.title }}](#){: data-target="{{ paper.id }}" .modal-trigger }**  
+  {{ paper.author }}
+{% endfor %}
