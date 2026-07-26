@@ -11,7 +11,7 @@
           </div>
 
           <div class="row speaker-grid">
-            {% assign invited_speakers_sorted = site.invited_speakers | sort:"priority" %}            
+            {% assign invited_speakers_sorted = site.invited_speakers | where_exp: "s", "s.invited_session != true" | sort: "priority" %}
             {% for invited_speaker in invited_speakers_sorted %}
               <div class="col s12 m6 l3">
                 <a href="#" data-target={{invited_speaker.id}} class="modal-trigger">
