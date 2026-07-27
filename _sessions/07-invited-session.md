@@ -6,3 +6,4 @@ time: "15:20 - 17:40"
 name: distinguished-invited-session
 title: "Distinguished Invited Session"
 ---
+**Session Chair:** Zhaoyan Shen

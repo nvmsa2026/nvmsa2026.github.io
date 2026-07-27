@@ -7,7 +7,7 @@ name: paper-session-1
 title: "NVMSA Paper Session 1"
 ---
 **Session Title:** ZNS and Flash Storage Management  
-**Session Chair:** <span class="to-be-assigned">To be assigned</span>
+**Session Chair:** Yu-Pei Liang  
 
 - **10:30 - 10:50 [Future-Proof Space Management in Relational Databases: Designs for ZNS Drives](#){: data-target="/papers/3_paper" .modal-trigger }**  
   Zhen-Yang Guo (National Taipei Univ. of Technology), Shang-Ze Wang (National Taipei Univ. of Technology), Chieh-Jen Wang (Industrial Technology Research Institute), Ming-Chang Yang (The Chinese University of Hong Kong), Shuo-Han Chen (National Yang Ming Chiao Tung University)

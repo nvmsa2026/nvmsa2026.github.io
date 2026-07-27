@@ -7,7 +7,7 @@ name: paper-session-2
 title: "NVMSA Paper Session 2"
 ---
 **Session Title:** File Systems and Mobile Storage Optimization  
-**Session Chair:** <span class="to-be-assigned">To be assigned</span>
+**Session Chair:** Shuo-Han Chen  
 
 - **10:30 - 10:50 [Reducing Mobile Application Cold-Start Latency via Launch-Critical Data Identification](#){: data-target="/papers/2_paper" .modal-trigger }**  
   <span class="outstanding-paper">Outstanding paper</span>  

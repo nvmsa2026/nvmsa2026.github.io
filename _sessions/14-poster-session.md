@@ -6,7 +6,7 @@ time: "16:40 - 17:30"
 name: poster-session
 title: "NVMSA Poster Session"
 ---
-**Session Chair:** <span class="to-be-assigned">To be assigned</span>
+**Session Chair:** Tianyu Wang  
 
 {% assign poster_papers = site.papers | where: "poster", true | sort: "id" %}
 {% for paper in poster_papers %}

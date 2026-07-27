@@ -7,7 +7,7 @@ name: paper-session-3
 title: "NVMSA Paper Session 3"
 ---
 **Session Title:** In-Memory and Near-Data Computing  
-**Session Chair:** <span class="to-be-assigned">To be assigned</span>
+**Session Chair:** Qian Wei  
 
 - **15:20 - 15:40 [Hardware-Aware Neural Network Deployment on Multi-Core In-Memory Computing Systems: A Compiler Perspective](#){: data-target="/papers/1_paper" .modal-trigger }**  
   Kaiwen Deng (Beihang University), Sifan Sun (Beihang University), Hanjie Liu (Beihang University), Haiyan Qin (Beihang University), Wang Kang (Beihang University)

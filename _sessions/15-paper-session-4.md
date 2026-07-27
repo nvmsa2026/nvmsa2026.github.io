@@ -7,7 +7,7 @@ name: paper-session-4
 title: "NVMSA Paper Session 4"
 ---
 **Session Title:** Storage Systems and Intelligence  
-**Session Chair:** <span class="to-be-assigned">To be assigned</span>
+**Session Chair:** Kecheng Huang  
 
 - **09:00 - 09:20 [When Misprediction Is Cheap: Rethinking Host-Side Power Management for NVMe SSDs](#){: data-target="/papers/5_paper" .modal-trigger }**  
   <span class="outstanding-paper">Outstanding paper</span>  
