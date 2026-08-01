@@ -1,7 +1,7 @@
 ---
 name: Tei-Wei Kuo
 title: Distinguished Professor, ACM Fellow & IEEE Fellow
-affiliation: National Taiwan University
+affiliation: Delta Electronics
 image: https://rtcsa2026.github.io/img/site/Tei-Wei-Kuo.jpg
 link: https://www.csie.ntu.edu.tw/~ktw/
 session: NVMSA/RTCSA Joint Keynote 1
