@@ -3,6 +3,7 @@ day: 3
 day_title: "August 13, 2026 (Day 3)"
 order: 3
 time: "11:00 - 12:00"
+location: "No. 2 Conference Room, 3F"
 name: women-in-research
 title: "Women In Research Session"
 ---

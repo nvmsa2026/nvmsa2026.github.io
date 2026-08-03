@@ -15,7 +15,12 @@
                       {% assign session_speakers = site.invited_speakers | where: "session", session.name | sort: "priority" %}
                       {% assign speakers_size = session_speakers | size %}
                       <tr>
-                        <th scope="row"><time>{{ session.time }}</time></th>
+                        <th scope="row">
+                          <time>{{ session.time }}</time>
+                          {% if session.location %}
+                            <span class="schedule-location">{{ session.location }}</span>
+                          {% endif %}
+                        </th>
                         <td>
                           <h5>{{ session.title }}</h5>
                           {% if session.content != "" %}

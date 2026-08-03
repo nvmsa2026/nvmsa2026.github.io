@@ -3,6 +3,7 @@ day: 2
 day_title: "August 12, 2026 (Day 2)"
 order: 6
 time: "15:20 - 16:40"
+location: "No. 1 Conference Room, 3F"
 name: paper-session-3
 title: "NVMSA Paper Session 3"
 ---
