@@ -1,5 +1,5 @@
 ---
-name: Zhou Ke
+name: Ke Zhou
 title: Professor
 affiliation: Huazhong University of Science and Technology
 image: img/zhouke.png
