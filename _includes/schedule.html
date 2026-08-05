@@ -14,6 +14,7 @@
                     {% for session in day_sessions %}
                       {% assign session_speakers = site.invited_speakers | where: "session", session.name | sort: "priority" %}
                       {% assign speakers_size = session_speakers | size %}
+                      {% assign session_content = session.content | strip %}
                       <tr>
                         <th scope="row">
                           <time>{{ session.time }}</time>
@@ -23,9 +24,9 @@
                         </th>
                         <td>
                           <h5>{{ session.title }}</h5>
-                          {% if session.content != "" %}
+                          {% if session_content != "" %}
                             <div class="session-details">
-                              {{ session.content | markdownify }}
+                              {{ session_content | markdownify }}
                             </div>
                           {% endif %}
                           {% if speakers_size > 0 %}
