@@ -142,6 +142,113 @@
   font-size:17px;
 }
 
+.workshop-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin: 16px 0 24px;
+}
+
+.registration-table {
+  margin-bottom: 24px;
+}
+
+.registration-subtitle {
+  color: #777;
+  font-size: 15px;
+  margin-bottom: 24px;
+}
+
+.registration-table th,
+.registration-table td {
+  text-align: center;
+}
+
+.registration-table th:first-child,
+.registration-table td:first-child {
+  text-align: left;
+}
+
+.registration-table thead span {
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.category-cell {
+  color: {{site.color.primary-dark}};
+  font-weight: 600;
+}
+
+.price {
+  font-family: inherit;
+}
+
+.usd-price {
+  white-space: nowrap;
+}
+
+.extra-table td:first-child {
+  color: {{site.color.primary-dark}};
+  font-weight: 600;
+  width: 28%;
+}
+
+.extra-table td:last-child {
+  text-align: left;
+}
+
+.muted {
+  color: #777;
+}
+
+.registration-section-title {
+  color: {{site.color.primary-dark}};
+  font-weight: 600;
+  margin-top: 30px;
+}
+
+.registration-policy {
+  margin-left: 18px;
+}
+
+.registration-policy li {
+  list-style-type: disc;
+  margin-bottom: 8px;
+}
+
+.registration-policy ul {
+  margin-top: 8px;
+  margin-left: 18px;
+}
+
+.registration-policy ul li {
+  list-style-type: circle;
+}
+
+.highlight,
+.email-link {
+  color: {{site.color.primary-dark}};
+  font-weight: 600;
+}
+
+.registration-note {
+  background: #f8f1f1;
+  border-left: 3px solid {{site.color.primary-dark}};
+  margin-top: 20px;
+  padding: 12px 16px;
+}
+
+.payment-info-table th {
+  color: {{site.color.primary-dark}};
+  font-weight: 600;
+  width: 34%;
+}
+
+.payment-info-table td,
+.payment-info-table th {
+  vertical-align: top;
+}
+
 .card-title{
   white-space: nowrap;
 }
