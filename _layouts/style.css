@@ -8,6 +8,26 @@
   background-color: {{site.color.primary-dark}};
 }
 
+.nav .nav-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.nav-title {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+.nav .sidenav-trigger {
+  margin-left: auto;
+}
+
+.nav .right {
+  margin-left: auto;
+}
+
 .banner{
   max-width:100%;
   height: 500px;
