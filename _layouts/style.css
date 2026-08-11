@@ -244,6 +244,10 @@
   width: 34%;
 }
 
+.payment-info-title {
+  margin-bottom: 30px;
+}
+
 .payment-info-table td,
 .payment-info-table th {
   vertical-align: top;
