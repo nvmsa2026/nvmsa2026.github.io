@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  <body>
+    <header>
+      {% include nav.html %}
+    </header>
+    <main>
+      {% include banner.html %}
+      {% include infoline.html %}
+      {% include about.html %}
+    </main>
+    <footer class="page-footer" style="background-color: {{site.color.primary-dark}}">
+    </footer>
+    {% include js.html %}
+  </body>
+</html>
